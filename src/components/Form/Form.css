@@ -40,3 +40,77 @@
   position: relative;
   width: 40%;
 }
+
+.category-dropdown {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  margin: 12px 0px;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.category-dropdown i {
+  display: flex;
+  align-items: center;
+}
+
+.category-container {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+}
+
+.category-item {
+  margin-left: 4px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.category-item img {
+  height: 32px;
+  margin-right: 20px;
+}
+
+.form-add-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-add-button div {
+  display: flex;
+  border: 1px solid black;
+  padding: 2px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-add-button i {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .form-item {
+    width: 100%;
+  }
+
+  .form-item input {
+    width: 70%;
+  }
+
+  .amount-innput {
+    width: 50% !important;
+  }
+
+  .category {
+    width: 80%;
+  }
+}

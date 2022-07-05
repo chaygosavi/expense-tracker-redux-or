@@ -13,7 +13,7 @@ const Form = () => {
   const [amount, setAmount] = useState(0);
   const [modalOpen, setModalOpen] = useState(false);
   const [category, setCategory] = useState();
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const dispatch = useDispatch();
 
   const handleSubmit = () => {

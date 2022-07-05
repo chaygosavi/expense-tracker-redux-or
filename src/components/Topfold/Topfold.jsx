@@ -1,11 +1,15 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { SEARCH_EXPENSE } from "../../redux/actions/action";
 import "./Topfold.css";
 
 const Topfold = () => {
   const [search, setSearch] = useState("");
+  const dispatch = useDispatch();
   const handleSearch = (e) => {
     setSearch(e.target.value);
+    dispatch(SEARCH_EXPENSE(e.target.value));
   };
   return (
     <div className="topfold">
