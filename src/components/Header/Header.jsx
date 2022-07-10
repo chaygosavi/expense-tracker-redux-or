@@ -6,8 +6,8 @@ const Header = () => {
     <div className="header-container">
       <div className="header">
         <div className="header-logo">
-          Xpensr
-          <i class="fi fi-rr-credit-card" />.
+          Xpenser
+          <i class="fi fi-rr-credit-card" />
         </div>
         <div className="header-button">
           <a
